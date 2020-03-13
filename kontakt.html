@@ -5,7 +5,7 @@
     <meta charset="utf-8"/>
     <meta http-equiv="X-UA-Compatible" content="IE=edge,chrome=1" />
     
-    <title>Kontakt | Los Santos Fire Department</title>
+    <title>Los Santos Fire Department</title>
 
     <link rel="icon" href="https://i.imgur.com/F9Ne52k.png" type="img/logo1.png" />
 
@@ -17,9 +17,9 @@
     <link href="https://fonts.googleapis.com/css?family=Roboto+Slab:100,200,300,400,500,600,700,800,900&display=swap" rel="stylesheet">
 
     <script src="http://cdn.jsdelivr.net/npm/jquery@3.3.1/dist/jquery.min.js"></script>
-
+    <script src="https://cdn.jsdelivr.net/npm/jquery@3.2.1/dist/jquery.min.js"></script>
+    <script src="message.js"></script>
     <script src="slide.js"></script>
-    <script src="kontakt.js"></script>
 
 </head>
 <body onload="zmienslajd()">
@@ -108,13 +108,13 @@
 
                     </div>
 
-                    <button id="myBtn">Wyślij wiadomość do zarządu</button>
+                    <button id="myBtn">WYŚLIJ WIADOMOŚĆ DO ZARZĄDU</button>
                     <div id="myModal" class="modal">
                     <div class="modal-content">
                         <span class="close">&times;</span>
                         <form action="https://formspree.io/firedepartmentoflossantos@gmail.com" method="POST">
                             <br/><p>Wyślij wiadomość do zarządu</p>
-                            <input type="text" class="name" placeholder="Imię i Nazwisko"/><br/>
+                            <input type="text" class="name" name="Imię i Nazwisko" placeholder="Imię i Nazwisko"/><br/>
                             <textarea name="Wiadomość" class="message" placeholder="Wpisz treść swojej wiadomości..."></textarea> <br/>
                             <input type="submit" value="Wyślij" class="wyslij"/>
                         </form>
