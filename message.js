@@ -6,6 +6,7 @@ $(document).ready(function() {
 
         var name = $('.name').val()
         var message = $('.message').val()
+        var discord = $('.discord').val()
         var statusElm = $('.status')
         statusElm.empty()
 
@@ -13,7 +14,7 @@ $(document).ready(function() {
             statusElm.append('')
         } else {
             event.preventDefault()
-            statusElm.append('<div>Nieprawidłowe dane!</div>')
+            statusElm.append('<div>Nieprawidłowe imię lub nazwisko!</div>')
         }
 
         if(message.length >= 10) {
@@ -21,6 +22,13 @@ $(document).ready(function() {
         } else {
             event.preventDefault()
             statusElm.append('<div>Twoja wiadomość ma mniej niż 10 znaków!</div>')
+        }
+
+        if(discord.length >= 6 && discord.includes('#') ) {
+            statusElm.append('')
+        } else {
+            event.preventDefault()
+            statusElm.append('<div>Nieprawidłowy discord!</div>')
         }
     })
 })
