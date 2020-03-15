@@ -1,3 +1,5 @@
+# CHANGELOG 14.02.2020r.
+### - Drobne zmiany
 # CHANGELOG 13.02.2020r.
 ### - Dodano możliwość wysłania wiadomości do zarządu
 # CHANGELOG 10.03.2020r.
