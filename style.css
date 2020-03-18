@@ -582,7 +582,7 @@ button#myBtn:focus
     text-decoration: none;
     cursor: pointer;
 }
-input.contact_input {
+input.contact_discord_input, input.contact_name_input {
     width: 400px;
     height: 40px;
     font-size: 24px;
@@ -615,7 +615,7 @@ input.contact_submit {
     font-size: 24px;
     margin: 5px auto 5px auto;
 }
-input.contact_input:focus, input.contact_submit:focus, textarea.contact_textarea:focus {
+input.contact_discord_input:focus, input.contact_name_input:focus, input.contact_submit:focus, textarea.contact_textarea:focus {
     outline: none;
     -webkit-box-shadow: 0px 0px 2px 1px #222;
     -moz-box-shadow: 0px 0px 2px 1px #222;

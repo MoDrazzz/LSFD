@@ -1,12 +1,12 @@
 console.log('Działa');
 
 $(document).ready(function() {
-    $('.wyslij').click(function () {
+    $('.contact_submit').click(function () {
         console.log('Clicked button')
 
-        var name = $('.name').val()
-        var message = $('.message').val()
-        var discord = $('.discord').val()
+        var name = $('.contact_name_input').val()
+        var message = $('.contact_textarea').val()
+        var discord = $('.contact_discord_input').val()
         var statusElm = $('.status')
         statusElm.empty()
 
