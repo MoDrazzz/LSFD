@@ -238,6 +238,7 @@ li.navitem:hover
     font-family: 'Montserrat', sans-serif;
     text-align: center;
     padding: 5%;
+    font-weight: 400;
     padding-top: 0%;
     padding-bottom: 0%;
     font-size: 25px;
@@ -249,6 +250,10 @@ li.navitem:hover
     color: #cc0000;
     font-size: 20px;
 }
+#ogloszeniacontent a h2:hover {
+    text-decoration: underline;
+    color: #cc0000;
+}
 #ogloszeniacontent p
 {
     margin-top: 0;
@@ -259,7 +264,7 @@ li.navitem:hover
 }
 #ogloszeniacontent a:hover
 {
-    color: #cc0000;
+    color: #222;
     text-decoration: underline;
 }
 #content2
@@ -548,70 +553,73 @@ button#myBtn:focus
     left: 0;
     top: 0;
     width: 100%; /* Full width */
-    height: auto; /* Full height */
-    overflow: auto; /* Enable scroll if needed */
+    height: 100%; /* Full height */
+    /* overflow: auto; Enable scroll if needed */
     background-color: rgb(0,0,0); /* Fallback color */
     background-color: rgba(0,0,0,0.4); /* Black w/ opacity */
-  }
+}
   
   /* Modal Content/Box */
-  .modal-content {
+.modal-content {
     background-color: #fefefe;
-    margin: 18% auto; /* 15% from the top and centered */
+    margin: 15% auto; /* 15% from the top and centered */
     padding: 10px;
     border: 1px solid #888;
     width: 80%; /* Could be more or less, depending on screen size */
-  }
+}
   
   /* The Close Button */
-  .close {
+.close {
     color: #aaa;
     float: right;
     font-size: 28px;
     font-weight: bold;
-  }
+}
   
-  .close:hover,
-  .close:focus {
+.close:hover,
+.close:focus {
     color: black;
     text-decoration: none;
     cursor: pointer;
-  }
-textarea.message
-{
-    width: 80%;
+}
+input.contact_input {
+    width: 400px;
+    height: 40px;
+    font-size: 24px;
+    border: 1px solid #aaa;
+    border-radius: 5px;
+    padding: 0 5px 0 5px;
+    display: flex;
+    margin: 10px auto 10px auto;
+    color: #222;
+}
+textarea.contact_textarea {
+    width: 400px;
     height: 200px;
+    margin: -24px auto 0 auto;
+    border: 1px solid #aaa;
+    border-radius: 5px;
+    padding: 5px;
     text-align: justify;
+    font-family: 'Montserrat', sans-serif;
     resize: none;
-    padding-left: 5px;
 }
-input.name, input.discord
-{
-    width: 200px;
-    height: 30px;
-    text-align: justify;
-    padding-left: 5px;
-    margin: 0 0 20px 0;
-}
-input.name, input.discord, textarea.message
-{
-    outline: none;
-    border: 1px solid #222;
-}
-input.wyslij
-{
-    margin: 20px 0 10px 0;
-    width: 20%;
-    height: 50px;
+input.contact_submit {
+    width: 412px;
+    height: 42px;
+    padding: 6px;
+    border: 1px solid #aaa;
+    border-radius: 5px;
     background-color: #cc0000;
-    border: solid 2px #880000;
-    font-size: 20px;
     color: #fff;
-    outline: none;
+    font-size: 24px;
+    margin: 5px auto 5px auto;
 }
-input.wyslij:active
-{
-    background-color: #dd0000;
+input.contact_input:focus, input.contact_submit:focus, textarea.contact_textarea:focus {
+    outline: none;
+    -webkit-box-shadow: 0px 0px 2px 1px #222;
+    -moz-box-shadow: 0px 0px 2px 1px #222;
+    box-shadow: 0px 0px 2px 1px #222;
 }
 form p
 {
