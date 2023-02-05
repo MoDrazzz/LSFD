@@ -1,39 +1,28 @@
-# CHANGELOG 18.03.2020r.
-### - Zmiany w wyglądzie formularza kontaktowego
-# CHANGELOG 14.03.2020r.
-### - Drobne zmiany
-# CHANGELOG 13.03.2020r.
-### - Dodano możliwość wysłania wiadomości do zarządu
-# CHANGELOG 10.03.2020r.
-### - Cień nav'a
-### - Poprawiona funkcjonalność na urządzeniach mobilnych
-# CHANGELOG 7.03.2020r.
-## Zmiany wprowadzone w changelog'u zostały wykonane w nieco ponad miesiąc ciężkiej pracy.
-## Dokładna lista:
-### - Cała strona napisana od nowa
-### - Całkowita zmiana interfejsu
-### - Nowy nav bar
-### - Zdjęcia tytułowe na każdej podstronie i slajdy na stronie głównej
-### - QuickLinks
-### - Content
-#### 	O NAS
-#####		KIM JESTEŚMY
-#####		HISTORIA
-##### 		WIADOMOŚCI
-##### 		FAQ
-##### 	    ZARZĄD
-##### 		ZARZĄD LSFD
-##### 		PRACOWNICY
-##### 	GALERIA
-##### 		ZDJĘCIA + 3 STRONY
-##### 	NABÓR
-##### 		INFORMACJE O NABORZE
-##### 		REKRUTACJA
-##### 	KONTAKT	
-##### 		INFORMACJE PUBLICZNE
-#####		KONTAKT Z ZARZĄDEM
-##### 		MEDIA
-### - Kilka ciekawych opcji
-### - Animacje
-### - Poprawiono slajdy, które skalują się wraz z rozdzielczością
-### - Pracujemy nad działaniem strony na telefonach, część pracy już za nami
+# Los Santos Fire Department
+
+Los Santos Fire Department is fictional fire station located in GTA 5 game world. In 2020, I played GTA role-play a lot, so when I became Fire Chief I decided to build a company website.
+
+## Prelude
+**Attention!** This website is my first ever web project built in 2020. I share it on purpose, so you can see progress I have made in all this years. I intentionally don't correct any mistake I have made, because it is kind of a souvenir :D
+
+## Challenge
+
+- Build a landing page for fire station
+- Allow user to reach out to the chief using contact form.
+
+## Outcome
+
+- Use [HTML5][html5] and [CSS3][css3] to create the layout and pages
+- Use [Formspree][formspree] library for server-less contact form
+
+### Local version - Installation
+
+No server required, Yeey! Download .zip or clone repository and open `index.html` to see the website.
+
+## License
+
+GNU GENERAL PUBLIC LICENSE
+
+[html5]: https://wikipedia.org/wiki/HTML5
+[css3]: https://wikipedia.org/wiki/CSS
+[formspree]: https://formspree.io/
