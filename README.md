@@ -3,7 +3,7 @@
 Los Santos Fire Department is fictional fire station located in GTA 5 game world. In 2020, I played GTA role-play a lot, so when I became Fire Chief I decided to build a company website.
 
 ## Prelude
-**Attention!** This website is my first ever web project built in 2020. I share it on purpose, so you can see progress I have made in all this years. I intentionally don't correct any mistake I have made, because it is kind of a souvenir :D
+**Attention!** This website is my first ever web project built in 2020. I share it on purpose, so you can see progress I have made in all this years. I intentionally don't correct any mistake I have done, because it is kind of a souvenir :D
 
 ## Challenge
 
